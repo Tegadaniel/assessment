@@ -1,0 +1,37 @@
+html, body, section {
+    height: 100%;
+  }
+  
+  body {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    line-height: 150%;
+  }
+  
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Pattern styles */
+  .container {
+    display: flex;
+  }
+  
+  .left-half {
+    
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .right-half {
+    background: linear-gradient(#588ec6, rgba(175,211,248,100));
+    flex: 1;
+    padding: 1rem;
+  }
+
+  .button2:hover {
+    background-image: linear-gradient(#afd3f8, rgba(175,211,248,100));
+    transform: scale(1.03);
+  }
